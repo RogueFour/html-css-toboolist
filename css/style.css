@@ -23,4 +23,24 @@ header img{
 
 main{
     background-color: white;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
 }
+
+button{
+    border-radius: 5px; 
+    padding: 5px;
+    
+}
+
+#task{
+background-color: dodgerblue;
+border-color: dodgerblue;
+color: white;
+}
+
+#section{
+border-color: white;
+}
+
