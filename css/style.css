@@ -3,7 +3,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
-    background-color: lightgrey;
+    background-color: rgba(173, 173, 173, 0.199);
+    height: 100%;
 }
 
 header{
@@ -21,17 +22,26 @@ header img{
     vertical-align: middle;
 }
 
-main{
+.section-button{
     background-color: white;
     width: 50%;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 30px auto 5px;
+    padding: 25px;
+}
+
+.section-list{
+    background-color: white;
+    width: 50%;
+    margin:auto;
+    margin-bottom: 5px;
+    padding: 25px;
+    
 }
 
 button{
+    display: inline-block;
     border-radius: 5px; 
-    padding: 5px;
-    
+    padding: 5px 15px;
 }
 
 #task{
@@ -41,6 +51,25 @@ color: white;
 }
 
 #section{
-border-color: white;
+border-color: grey;
+color: grey;
+background-color: white;
 }
 
+li{
+    padding-left: 0px;
+}
+.bold{
+    font-weight: bold;
+    color: black;
+    list-style-type: disclosure-open;
+    padding-top: 10px;
+}
+
+.date{
+    color: black;
+    font-weight: normal;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
