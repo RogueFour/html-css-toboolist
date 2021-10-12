@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    background-color: lightgrey;
+}
+
+header{
+    background-color: white;
+}
+header h1{
+    display: inline-block;
+    font-size: 2em;
+    margin-top: 10px; 
+
+}
+
+header img{
+    height: 100%;
+    vertical-align: middle;
+}
+
+main{
+    background-color: white;
+}
